@@ -7,8 +7,10 @@ namespace Tyuiu.VasilevAA.Sprint1.Task0.V1.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ValidExpression()
         {
+            var res = 36/2/9+1-6/2*3;
+            Assert.AreEqual(-6,res);
         }
     }
 }
