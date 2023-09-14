@@ -14,9 +14,23 @@ namespace Tyuiu.VasilevAA.Sprint1.Task3.V2
         {
             DataService ds = new DataService();
 
-            //PriceOfNotebooks* NumberOfNotebooks +PriceOfPencils * NumberOfPencils
             double PriceOfNotebooks, PriceOfPencils;
-            int NumberOfNotebooks, 
+            int NumberOfNotebooks, NumberOfPencils;
+
+            Console.WriteLine("Введите цену тетради:");
+            PriceOfNotebooks = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Введите Количество тетрадей:");
+            NumberOfNotebooks = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Введите цену карандаша:");
+            PriceOfPencils = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Введите количество карандашей:");
+            NumberOfPencils = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Стоимость покупки: " + ds.PriceOfGoods(PriceOfNotebooks,NumberOfNotebooks,PriceOfPencils,NumberOfPencils);
+            Console.ReadKey();
         }
     }
 }
