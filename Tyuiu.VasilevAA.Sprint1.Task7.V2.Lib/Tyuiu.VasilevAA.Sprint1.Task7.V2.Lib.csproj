@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{98AC25F2-B7F1-4034-8DF9-6E2BC4D8C716}</ProjectGuid>
+    <ProjectGuid>{CA6F5934-F490-4820-A534-53DFEA381DB9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tyuiu.VasilevAA.Sprint1.Task5.V2.Lib</RootNamespace>
-    <AssemblyName>Tyuiu.VasilevAA.Sprint1.Task5.V2.Lib</AssemblyName>
+    <RootNamespace>Tyuiu.VasilevAA.Sprint1.Task7.V2.Lib</RootNamespace>
+    <AssemblyName>Tyuiu.VasilevAA.Sprint1.Task7.V2.Lib</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

@@ -1,9 +1,9 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-using Tyuiu.VasilevAA.Sprint1.Task5.V2.Lib;
+using Tyuiu.VasilevAA.Sprint1.Task6.V2.Lib;
 
-namespace Tyuiu.VasilevAA.Sprint1.Task5.V2.Test
+namespace Tyuiu.VasilevAA.Sprint1.Task6.V2.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -12,10 +12,8 @@ namespace Tyuiu.VasilevAA.Sprint1.Task5.V2.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double tempFahrenheit = 5;
-            var res = ds.FahrenheitToCelsius(tempFahrenheit);
-            Assert.AreEqual(tempFahrenheit, res);
-
+            bool res = ds.WorkWithText(text);
+            Assert.AreEqual(true, res);
         }
     }
 }
