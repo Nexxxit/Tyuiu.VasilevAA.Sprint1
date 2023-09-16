@@ -10,7 +10,7 @@ namespace Tyuiu.VasilevAA.Sprint1.Task3.V1.Lib
 {
     public class DataService : ISprint1Task3V1
     {
-        public double Calculate(double r,  double h)
+        public double CylinderVolume(double r,  double h)
         {
             return Math.PI * r * r * h;
         }

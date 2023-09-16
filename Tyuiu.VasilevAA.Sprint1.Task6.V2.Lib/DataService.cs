@@ -10,7 +10,7 @@ namespace Tyuiu.VasilevAA.Sprint1.Task6.V2.Lib
 {
     public class DataService : ISprint1Task6V2
     {
-        public bool WorkWithText(string text)
+        public bool CheckHello(string text)
         {
             if (text.Contains("Hello"))
             {
