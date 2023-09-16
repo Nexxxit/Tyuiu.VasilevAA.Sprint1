@@ -13,7 +13,7 @@ namespace Tyuiu.VasilevAA.Sprint1.Task6.V1.Test
         {
             DataService ds = new DataService();
             string text = "1";
-            var res = ds.WorkWithText(text);
+            var res = ds.SymbolCode(text);
             Assert.AreEqual("49", res);
         }
     }

@@ -10,7 +10,7 @@ namespace Tyuiu.VasilevAA.Sprint1.Task6.V1.Lib
 {
     public class DataService : ISprint1Task6V1
     {
-        public string WorkWithText(string text)
+        public string SymbolCode(string text)
         {
             byte[] asciiBytes = Encoding.ASCII.GetBytes(text);
             byte asciiValue = asciiBytes[0];

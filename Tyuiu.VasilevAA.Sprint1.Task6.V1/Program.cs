@@ -19,7 +19,7 @@ namespace Tyuiu.VasilevAA.Sprint1.Task6.V1
             Console.WriteLine("Введите символ:");
             text = Convert.ToString(Console.ReadLine());
 
-            Console.WriteLine("Результат: " + ds.WorkWithText(text));
+            Console.WriteLine("Результат: " + ds.SymbolCode(text));
             Console.ReadKey();
         }
     }
