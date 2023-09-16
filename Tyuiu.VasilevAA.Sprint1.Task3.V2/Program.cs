@@ -29,7 +29,7 @@ namespace Tyuiu.VasilevAA.Sprint1.Task3.V2
             Console.WriteLine("Введите количество карандашей:");
             NumberOfPencils = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Стоимость покупки: " + ds.PriceOfGoods(PriceOfNotebooks,NumberOfNotebooks,PriceOfPencils,NumberOfPencils);
+            Console.WriteLine("Стоимость покупки: " + ds.PurchaseAmount(PriceOfNotebooks,NumberOfNotebooks,PriceOfPencils,NumberOfPencils);
             Console.ReadKey();
         }
     }

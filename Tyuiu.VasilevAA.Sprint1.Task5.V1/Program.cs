@@ -28,7 +28,7 @@ namespace Tyuiu.VasilevAA.Sprint1.Task5.V1
             Console.WriteLine("Введите Y2:");
             y2 = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Результат: " + ds.Calculate(x1,x2,y1,y2));
+            Console.WriteLine("Результат: " + ds.DistanceBetweenDots(x1,x2,y1,y2));
             Console.ReadKey();
 
         }

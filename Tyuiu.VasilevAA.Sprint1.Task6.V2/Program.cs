@@ -18,7 +18,7 @@ namespace Tyuiu.VasilevAA.Sprint1.Task6.V2
             Console.WriteLine("Введите текст:");
             text = Console.ReadLine();
 
-            Console.WriteLine(ds.WorkWithText(text));
+            Console.WriteLine(ds.CheckHello(text));
             Console.ReadKey();
         }
     }

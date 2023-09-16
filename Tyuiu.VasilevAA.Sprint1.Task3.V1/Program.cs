@@ -21,7 +21,7 @@ namespace Tyuiu.VasilevAA.Sprint1.Task3.V1
             Console.WriteLine("Введите высоту:");
             h = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Объём цилиндра равен" + ds.Calculate(r, h));
+            Console.WriteLine("Объём цилиндра равен" + ds.CylinderVolume(r, h));
             Console.ReadKey();
 
         }

@@ -14,12 +14,12 @@ namespace Tyuiu.VasilevAA.Sprint1.Task5.V2
         {
             DataService ds = new DataService();
 
-            double tempFahrenheit;
+            double temp;
 
             Console.WriteLine("Введите температуру по Фаренгейту:");
-            tempFahrenheit = Convert.ToDouble(Console.ReadLine());
+            temp = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Температура в градусах Цельсия = " + ds.FahrenheitToCelsius(tempFahrenheit));
+            Console.WriteLine("Температура в градусах Цельсия = " + ds.FahrenheitToСelsius(temp));
             Console.ReadKey();
         }
     }

@@ -12,9 +12,9 @@ namespace Tyuiu.VasilevAA.Sprint1.Task5.V2.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double tempFahrenheit = 5;
-            var res = ds.FahrenheitToCelsius(tempFahrenheit);
-            Assert.AreEqual(tempFahrenheit, res);
+            double temp = 5;
+            var res = ds.FahrenheitToСelsius(temp);
+            Assert.AreEqual(-15, res);
 
         }
     }

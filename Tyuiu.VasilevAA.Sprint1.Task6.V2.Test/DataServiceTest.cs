@@ -12,7 +12,8 @@ namespace Tyuiu.VasilevAA.Sprint1.Task6.V2.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            bool res = ds.WorkWithText(text);
+            string text = "Hello world!";
+            bool res = ds.CheckHello(text);
             Assert.AreEqual(true, res);
         }
     }

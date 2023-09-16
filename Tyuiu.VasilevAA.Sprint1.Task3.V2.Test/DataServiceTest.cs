@@ -16,7 +16,7 @@ namespace Tyuiu.VasilevAA.Sprint1.Task3.V2.Test
             int NumberOfNotebooks = 5;
             double  PriceOfPencils = 3;
             int NumberOfPencils = 2;
-            var res = ds.PriceOfGoods(PriceOfNotebooks, NumberOfNotebooks, PriceOfPencils, NumberOfPencils);
+            var res = ds.PurchaseAmount(PriceOfNotebooks, NumberOfNotebooks, PriceOfPencils, NumberOfPencils);
             Assert.AreEqual(11, res);
         }
     }
